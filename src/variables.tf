@@ -60,7 +60,7 @@ variable "vpc_name_db" {
 
 #variable "vms_ssh_root_key" {
 #  type        = string
-#  default     = "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIBnWSF2E7JwGC5tAFvLzAS8uUgmxnEieWW5JmauAjCF1 denis@DenisHomeStation"
+#  default     = "ssh-ed25519"
 #  description = "~/.ssh/id_ed25519.pub"
 #}
 
@@ -85,11 +85,11 @@ type = map
 default={
   web={
     serial-port-enable = 1
-    ssh-keys           = "ubuntu:ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIBnWSF2E7JwGC5tAFvLzAS8uUgmxnEieWW5JmauAjCF1 denis@DenisHomeStation"
+    ssh-keys           = "ubuntu:ssh-ed25519"
   },
   db={
     serial-port-enable = 1
-    ssh-keys           = "ubuntu:ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIBnWSF2E7JwGC5tAFvLzAS8uUgmxnEieWW5JmauAjCF1 denis@DenisHomeStation"
+    ssh-keys           = "ubuntu:ssh-ed25519"
   }
 }
 }

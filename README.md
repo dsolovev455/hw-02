@@ -115,11 +115,7 @@ core_fraction=5 - говорит о том что гарантированная
 5. Найдите и закоментируйте все, более не используемые переменные проекта.
 6. Проверьте terraform plan. Изменений быть не должно.
 
-https://github.com/dsolovev455/hw-02/blob/main/src/locals.tf
-https://github.com/dsolovev455/hw-02/blob/main/src/main.tf
-https://github.com/dsolovev455/hw-02/blob/main/src/outputs.tf
-https://github.com/dsolovev455/hw-02/blob/main/src/variables.tf
-https://github.com/dsolovev455/hw-02/blob/main/src/ms_platform.tf
+https://github.com/dsolovev455/hw-02/blob/main/src
 
 ------
 

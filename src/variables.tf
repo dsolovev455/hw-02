@@ -93,3 +93,46 @@ default={
   }
 }
 }
+
+variable "netology_web" {
+  type        = string
+  default     = "netology"
+}
+
+variable "develop_web" {
+  type        = string
+  default     = "develop"
+}
+
+variable "platform_web" {
+  type        = string
+  default     = "platform"
+}
+
+variable "web_web" {
+  type        = string
+  default     = "web"
+}
+
+variable "netology_db" {
+  type        = string
+  default     = "netology"
+}
+
+variable "develop_db" {
+  type        = string
+  default     = "develop"
+}
+
+variable "platform_db" {
+  type        = string
+  default     = "platform"
+}
+
+variable "web_db" {
+  type        = string
+  default     = "db"
+}
+
+
+
